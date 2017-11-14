@@ -1,4 +1,4 @@
-package com.gaurav.coursera.designpattern;
+package com.gaurav.coursera.designpattern.adaptor;
 
 public interface CoffeeMachineInterface {
 

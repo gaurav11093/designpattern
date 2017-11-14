@@ -1,4 +1,4 @@
-package com.gaurav.coursera.designpattern;
+package com.gaurav.coursera.designpattern.adaptor;
 
 public class CoffeeTouchscreenAdapter implements CoffeeMachineInterface {
     private OldCoffeeMachine oldCoffeeMachine;
