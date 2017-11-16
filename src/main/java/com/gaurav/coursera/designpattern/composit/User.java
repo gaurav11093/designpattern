@@ -5,6 +5,11 @@ import java.util.ArrayList;
 public abstract class User {
 
     String username;
+
+    public User(String username) {
+        this.username = username;
+    }
+
     ArrayList<IComponent> playlists = new ArrayList();
 
     public void createPlaylist(Playlist newPlaylist) {

@@ -1,23 +1,23 @@
 package com.gaurav.coursera.designpattern.composit;
 
 public class Song implements IComponent {
-    private String title;
-    private String artist;
+  private String title;
+  private String artist;
 
-    public Song(String title, String artist) {
-        this.title = title;
-        this.artist = artist;
-    }
+  public Song(String title, String artist) {
+    this.title = title;
+    this.artist = artist;
+  }
 
-    public void play() {
+  public void play() {
+    // Play song
+  }
 
-    }
+  public void add(IComponent song) {
 
-    public void add(IComponent song) {
+  }
 
-    }
+  public void remove(IComponent song) {
 
-    public void remove(IComponent song) {
-
-    }
+  }
 }
